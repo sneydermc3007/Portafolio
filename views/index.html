@@ -11,6 +11,13 @@
     
     <!-- Estilo propio -->
     <link rel="stylesheet" href="./../css/styles.css">
+
+    <!-- <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    /> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header class="header" id="header">
@@ -40,7 +47,7 @@
                         </a>
                     </li>
                     <li class="nav__item">
-                        <a href="#portafolio" class="nav__link">
+                        <a href="#portfolio" class="nav__link">
                             <i class="uil uil-scenery nav__icon"></i> Portafolio
                         </a>
                     </li>
@@ -495,13 +502,91 @@
                         </div>
                     </div>
                 </div>
-
             </div>
+        </section>
 
+        <section class="portfolio section" id="portfolio">
+            <h2 class="section__title">Portafolio</h2>
+            <span class="section__subtitle">Mis proyectos</span>
+
+            <!-- <div class="portfolio__container container swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./../assets/img/PlyMath.PNG" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">PlyMath</h3>
+                            <p class="portfolio__description">
+                                PlyMath es una aplicación de escritorio que permite a estudiantes y profesores en 
+                                el area de calculo integral resolver problemas de forma interactiva, para ello 
+                                cuenta con una interfaz grafica que permite al usuario interactuar con la
+                                aplicación de forma intuitiva, ya sea para ver graficas o a la solucion a diferentes ecuaciones.
+                            </p>
+                            <a href="https://github.com/Code-Jathon/PlyMath" class="button button--flex button--small portfolio__button">
+                                Repositorio
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./../assets/img/Chat-Amigo.PNG" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Chat-Amigo</h3>
+                            <p class="portfolio__description">
+                                Chat-Amigo es una aplicacion web que permite a los personas vinculas a la 
+                                Universidad Católica Luis Amigó comunicarse entre si, ya sea mediante mensajes privados o en grupos, 
+                                donde se puede compartir archivos, mencionar personas, enviar emojis, responder mensajes y diferentes actividades.
+                            </p>
+                            <a href="https://github.com/sneydermc3007/Chat-Amigo" class="button button--flex button--small portfolio__button">
+                                Repositorio
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./../assets/img/Bessie.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Bessie</h3>
+                            <p class="portfolio__description">
+                                Bessie es una aplicación de escritorio diseñada para la fondo editorial de la Universidad Católica Luis Amigó,
+                                la cual permite a sus miembros administrar los diferentes estados de los articulos que se encuentran en proceso
+                                de publicación.
+                            </p>
+                            <a href="https://github.com/Code-Jathon/Bessie" class="button button--flex button--small portfolio__button">
+                                Repositorio
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="portfolio__content grid swiper-slide">
+                        <img src="./../assets/img/Witrace.jpg" alt="" class="portfolio__img">
+                        <div class="portfolio__data">
+                            <h3 class="portfolio__title">Witrace</h3>
+                            <p class="portfolio__description">
+                                Witrace es un sistema de análisis de trazabilidad que mediante a monitorios de multiples viajes consigue
+                                recolectar informarción de los diferentes envios de flores que salen de las fincas, se recoleta 
+                                información para luego ser mostrada en un dashboard, donde se pueden ver multiples graficas con la información 
+                                de los viajes por región, donde se comprueba la calidad de los viajes exitosos al momento de llegar a su destino,
+                                esto es posible verlo ya sea en la plataforma web de la empresa o mediante correo electronico previamente estruturado.
+                            </p>
+                            <a href="#" class="button button--flex button--small portfolio__button">
+                                Repositorio
+                                <i class="uil uil-arrow-right button__icon"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
 
         </section>
     </main>
     
     <script src="./../js/main.js"></script>
+
+    <!-- <script type="module">
+        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
+    </script> -->
 </body>
 </html>
