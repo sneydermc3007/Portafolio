@@ -12,10 +12,10 @@
     <!-- Estilo propio -->
     <link rel="stylesheet" href="./../css/styles.css">
 
-    <!-- <link
+    <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    /> -->
+    />
 
     <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
@@ -509,17 +509,17 @@
             <h2 class="section__title">Portafolio</h2>
             <span class="section__subtitle">Mis proyectos</span>
 
-            <!-- <div class="portfolio__container container swiper mySwiper">
+            <div class="portfolio__container container swiper mySwiper">
                 <div class="swiper-wrapper">
-                    <div class="portfolio__content grid swiper-slide">
+                    <!--PlyMath-->
+                    <div class="portfolio__content  swiper-slide">
                         <img src="./../assets/img/PlyMath.PNG" alt="" class="portfolio__img">
+
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">PlyMath</h3>
                             <p class="portfolio__description">
                                 PlyMath es una aplicación de escritorio que permite a estudiantes y profesores en 
-                                el area de calculo integral resolver problemas de forma interactiva, para ello 
-                                cuenta con una interfaz grafica que permite al usuario interactuar con la
-                                aplicación de forma intuitiva, ya sea para ver graficas o a la solucion a diferentes ecuaciones.
+                                el area de calculo integral resolver problemas de forma interactiva.
                             </p>
                             <a href="https://github.com/Code-Jathon/PlyMath" class="button button--flex button--small portfolio__button">
                                 Repositorio
@@ -528,14 +528,15 @@
                         </div>
                     </div>
 
-                    <div class="portfolio__content grid swiper-slide">
+                    <!--Chat Amigo-->
+                    <div class="portfolio__content  swiper-slide">
                         <img src="./../assets/img/Chat-Amigo.PNG" alt="" class="portfolio__img">
+
                         <div class="portfolio__data">
-                            <h3 class="portfolio__title">Chat-Amigo</h3>
+                            <h3 class="portfolio__title">Chat Amigó</h3>
                             <p class="portfolio__description">
                                 Chat-Amigo es una aplicacion web que permite a los personas vinculas a la 
-                                Universidad Católica Luis Amigó comunicarse entre si, ya sea mediante mensajes privados o en grupos, 
-                                donde se puede compartir archivos, mencionar personas, enviar emojis, responder mensajes y diferentes actividades.
+                                Universidad Católica Luis Amigó comunicarse entre si, ya sea mediante mensajes privados o en grupos.
                             </p>
                             <a href="https://github.com/sneydermc3007/Chat-Amigo" class="button button--flex button--small portfolio__button">
                                 Repositorio
@@ -544,8 +545,10 @@
                         </div>
                     </div>
 
-                    <div class="portfolio__content grid swiper-slide">
+                    <!--Bessie-->
+                    <div class="portfolio__content  swiper-slide">
                         <img src="./../assets/img/Bessie.jpg" alt="" class="portfolio__img">
+
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Bessie</h3>
                             <p class="portfolio__description">
@@ -560,16 +563,16 @@
                         </div>
                     </div>
 
-                    <div class="portfolio__content grid swiper-slide">
-                        <img src="./../assets/img/Witrace.jpg" alt="" class="portfolio__img">
+                    <!--Witrace-->
+                    <div class="portfolio__content  swiper-slide">
+                        <img src="./../assets/img/Witrace-1.jpg" alt="" class="portfolio__img">
+
                         <div class="portfolio__data">
                             <h3 class="portfolio__title">Witrace</h3>
                             <p class="portfolio__description">
-                                Witrace es un sistema de análisis de trazabilidad que mediante a monitorios de multiples viajes consigue
-                                recolectar informarción de los diferentes envios de flores que salen de las fincas, se recoleta 
-                                información para luego ser mostrada en un dashboard, donde se pueden ver multiples graficas con la información 
-                                de los viajes por región, donde se comprueba la calidad de los viajes exitosos al momento de llegar a su destino,
-                                esto es posible verlo ya sea en la plataforma web de la empresa o mediante correo electronico previamente estruturado.
+                                Witrace es sirve para el análisis de trazabilidad a base de monitorios multiples de viajes consigue
+                                recolectar información de diferentes envíos de flores que luego pasa a ser mostrada en un dashboard, donde se 
+                                pueden ver graficas con la información de los viajes por región.
                             </p>
                             <a href="#" class="button button--flex button--small portfolio__button">
                                 Repositorio
@@ -578,15 +581,24 @@
                         </div>
                     </div>
                 </div>
-            </div> -->
+
+                <div class="swiper-button-next" id="next-Snake">
+                    <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
+                </div>
+                <div class="swiper-button-prev" id="prev-Snake">
+                    <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
+                </div>
+                
+                <div class="swiper-pagination"></div>
+            </div>
 
         </section>
     </main>
     
     <script src="./../js/main.js"></script>
 
-    <!-- <script type="module">
+    <script type="module">
         import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-    </script> -->
+    </script>
 </body>
 </html>
