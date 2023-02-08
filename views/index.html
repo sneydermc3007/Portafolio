@@ -12,12 +12,9 @@
     <!-- Estilo propio -->
     <link rel="stylesheet" href="./../css/styles.css">
 
-    <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
-    />
+    <!-- Swiper (slider) -->
+    <link rel="stylesheet" href="./../css/swiper-bundle.min.css">
 
-    <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
 </head>
 <body>
     <header class="header" id="header">
@@ -509,10 +506,10 @@
             <h2 class="section__title">Portafolio</h2>
             <span class="section__subtitle">Mis proyectos</span>
 
-            <div class="portfolio__container container swiper mySwiper">
+            <div class="portfolio__container container swiper-container">
                 <div class="swiper-wrapper">
                     <!--PlyMath-->
-                    <div class="portfolio__content  swiper-slide">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="./../assets/img/PlyMath.PNG" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -529,7 +526,7 @@
                     </div>
 
                     <!--Chat Amigo-->
-                    <div class="portfolio__content  swiper-slide">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="./../assets/img/Chat-Amigo.PNG" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -546,7 +543,7 @@
                     </div>
 
                     <!--Bessie-->
-                    <div class="portfolio__content  swiper-slide">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="./../assets/img/Bessie.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -564,7 +561,7 @@
                     </div>
 
                     <!--Witrace-->
-                    <div class="portfolio__content  swiper-slide">
+                    <div class="portfolio__content grid swiper-slide">
                         <img src="./../assets/img/Witrace-1.jpg" alt="" class="portfolio__img">
 
                         <div class="portfolio__data">
@@ -582,23 +579,21 @@
                     </div>
                 </div>
 
-                <div class="swiper-button-next" id="next-Snake">
+                <div class="swiper-button-next">
                     <i class="uil uil-angle-right-b swiper-portfolio-icon"></i>
                 </div>
-                <div class="swiper-button-prev" id="prev-Snake">
+                <div class="swiper-button-prev">
                     <i class="uil uil-angle-left-b swiper-portfolio-icon"></i>
                 </div>
-                
+
                 <div class="swiper-pagination"></div>
             </div>
 
         </section>
     </main>
+
+    <script src="./../js/swiper-bundle.min.js"></script>
     
     <script src="./../js/main.js"></script>
-
-    <script type="module">
-        import Swiper from 'https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.esm.browser.min.js'
-    </script>
 </body>
 </html>
